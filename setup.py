@@ -23,5 +23,5 @@ setup(
         'Topic :: Utilities',
     ],
     packages=['django_select2'],
-    package_data={'django_select2': ['static/js/django_select2/*.js', 'static/img/django_select2/*.png', 'static/img/django_select2/*.gif']}
+    package_data={'django_select2': ['static/js/django_select2/*.js', 'static/img/django_select2/*.png', 'static/img/django_select2/*.gif', 'static/css/django_select2/*.css']}
 )
