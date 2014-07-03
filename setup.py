@@ -3,10 +3,10 @@ from setuptools import setup
 
 setup(
     name='django-select2',
-    version='1.5.10',
-    url='https://github.com/AleXeY989/django-select2.git',
-    description='Django package for jquery-colorbox: A lightweight customizable lightbox plugin for jQuery',
-    author='Jack Moore',
+    version='3.5.0',
+    url='https://github.com/AleXeY989/django_select2.git',
+    description='Django package for django-select2: Select2 is a jQuery based replacement for select boxes. It supports searching',
+    author='Igor Vaynberg',
     maintainer='AleXeY989',
     maintainer_email='alex1chupahin@ya.ru',
     license='MIT License',
@@ -22,6 +22,6 @@ setup(
         'Programming Language :: Python',
         'Topic :: Utilities',
     ],
-    packages=['django-select2'],
-    package_data={'django_select2': ['static/js/django_select2/*.js']}
+    packages=['django_select2'],
+    package_data={'django_select2': ['static/js/django_select2/*.js', 'static/img/django_select2/*.png', 'static/img/django_select2/*.gif']}
 )
